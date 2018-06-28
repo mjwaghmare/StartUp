@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">StartUp</string>
+    <string name="don_t_have_account_sign_up">Don\'t have account? Sign Up</string>
+    <string name="login">Login</string>
+    <string name="password1">password</string>
+    <string name="email1">email</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+
+    <string name="client_s_name">Client\'s Name</string>
+    <string name="type_of_service">Type of Service</string>
+    <string name="select_type_of_service">Select Type of Service</string>
+    <string name="location">Location</string>
+    <string name="services">Service</string>
+    <string name="service">Service</string>
+    <string name="locations">Location</string>
+    <string name="submit">Submit</string>
+    <string name="client_name">Client Name</string>
+    <string name="logout">Logout</string>
+
+    <string-array name="type_of_service">
+        <item>Hardware</item>
+        <item>Software</item>
+        <item>Other</item>
+    </string-array>
+</resources>

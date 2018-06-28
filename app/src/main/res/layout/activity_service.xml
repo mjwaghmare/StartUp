@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/slategray"
+tools:context="com.example.mj5waghmare.startup.ServiceActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/slategray"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+<TextView
+    android:id="@+id/tvclient"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20pt"
+    android:text="@string/client_name"
+    android:textColor="#000000"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/ClientName"
+    android:layout_width="319dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_below="@+id/tvclient"
+    android:hint="@string/client_s_name"
+    android:inputType="text"
+    android:textColorLink="?android:attr/colorActivatedHighlight" />
+
+<TextView
+    android:id="@+id/service"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="138dp"
+    android:text="@string/service"
+    android:textColor="#000000"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/tos"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="185dp"
+        android:entries="@array/type_of_service"
+        android:prompt="@string/type_of_service" />
+
+
+<TextView
+    android:id="@+id/tvloc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tos"
+    android:layout_marginTop="10pt"
+    android:text="@string/locations"
+    android:textColor="#000000"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/location"
+    android:layout_width="317dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignStart="@+id/ClientName"
+    android:layout_marginTop="248dp"
+    android:hint="@string/location"
+    android:inputType="text"
+    android:textColorLink="?android:attr/colorActivatedHighlight" />
+
+
+<Button
+    android:id="@+id/btnSubmit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="200dp"
+    android:background="@color/colorPrimary"
+    android:text="@string/submit"
+    android:textColor="@color/colorBlack" />
+
+</RelativeLayout>
